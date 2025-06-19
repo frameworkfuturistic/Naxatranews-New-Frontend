@@ -103,10 +103,10 @@ const MHeadComponent = (props) => {
 
                 </div>
 
-                <div className='h-full object-cover w-full md:w-[50%] md:pt-0 '>
+               <div className='h-full object-cover w-full md:w-[50%] md:pt-0 '>
                     {/* <PIPIndex data={props?.mediaList} className='object-cover h-full md:p-2 ' /> */}
                     {/* <PIPIndex data={videoData} className='object-cover h-full md:p-2 ' /> */}
-                    <iframe className='w-full h-[250px] md:h-[500px] pt-8  ' src="https://smartstream.in/naxatra/" title="Naxatra News Live Stream"  ></iframe>
+                    <iframe className='w-full h-[250px] md:h-[500px] pt-8  ' src="http://137.97.113.132/hls/main6/playlist.m3u8" title="Naxatra News Live Stream"  ></iframe>
                 </div>
 
 
